@@ -1,0 +1,6 @@
+# Netlify reads this file from the "lumora" base directory configured in the site settings.
+# Settings here override the UI build settings.
+[build]
+  command = "echo 'No build step required'"
+  publish = "public"
+  functions = "netlify/functions"
